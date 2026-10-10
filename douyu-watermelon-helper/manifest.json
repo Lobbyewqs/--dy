@@ -1,0 +1,10 @@
+{
+  "manifest_version": 3,
+  "name": "斗鱼大西瓜 · 自动落点助手",
+  "version": "0.1.0",
+  "description": "校准棋盘后，通过截图识别水果并模拟鼠标落点。实验版本，需要手动开始游戏。",
+  "minimum_chrome_version": "118",
+  "permissions": ["activeTab", "debugger"],
+  "background": { "service_worker": "background.js" },
+  "action": { "default_title": "打开大西瓜自动落点助手" }
+}

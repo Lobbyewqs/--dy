@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>大西瓜自动落点助手</title>
+  <link rel="stylesheet" href="panel.css">
+</head>
+<body>
+  <header><div><span class="eyebrow">WATERMELON HELPER · 实验版</span><h1>大西瓜自动落点助手</h1></div><button id="connect">连接直播间</button></header>
+  <main>
+    <section class="workspace">
+      <div class="bar"><strong id="task">先连接，再获取游戏画面</strong><button id="capture">重新截图</button></div>
+      <div class="stage"><canvas id="screen" width="900" height="620"></canvas><div id="empty">手动打开游戏并开始本局<br><small>把完整棋盘留在直播间可见范围内</small></div></div>
+      <div class="legend"><span>绿色：棋盘</span><span>蓝色：待投水果</span><span>橙色圆圈：识别结果</span><span>红色竖线：建议落点</span></div>
+      <p class="hint">框选时按住鼠标拖动。重新截图会清除旧校准。直播间窗口不要最小化、滚动或切换标签页。</p>
+    </section>
+    <aside>
+      <h2>首次校准</h2>
+      <button class="step" id="board">1 · 框选棋盘内部</button>
+      <p>从结束线到容器底部，不包含边框、分数和按钮。</p>
+      <button class="step" id="preview">2 · 框选待投水果区域</button>
+      <p>选本次将投下的水果，留出尺寸变化的空白，避开文字和“下一个”。</p>
+      <button class="step" id="background">3 · 取棋盘背景色</button>
+      <p>点击棋盘空白处。渐变背景可点多处，最多保留 6 个样本。</p>
+      <button class="step" id="drop">4 · 指定投放点击高度</button>
+      <p>点击棋盘内能正常投放的位置。自动运行只改变横坐标。</p>
+      <div class="settings">
+        <label>背景色容差 <input id="threshold" type="number" value="38" min="12" max="100"></label>
+        <label>最小半径（棋盘宽 %）<input id="radius" type="number" value="1.8" min="0.8" max="8" step="0.1"></label>
+        <label>每次投放最短间隔（秒）<input id="interval" type="number" value="1.8" min="1.2" max="8" step="0.2"></label>
+      </div>
+      <button id="inspect" class="step">5 · 检测并预览落点</button>
+      <label class="check"><input id="verified" type="checkbox">识别圆圈和待投水果对应正确</label>
+      <div class="actions"><button id="start" class="primary">开始自动</button><button id="stop" class="danger">暂停</button></div>
+      <button id="disconnect" class="quiet">断开连接</button>
+      <p id="status" role="status">尚未连接。首次连接会出现浏览器调试提示，用于截图及鼠标操作。</p>
+      <p id="stats">投放 0 次</p>
+      <p class="hint">请手动开局。助手只向校准棋盘发送落点，不主动寻找开局、道具或重开按钮。识别错误可能误点；没有“必胜”保证。</p>
+    </aside>
+  </main>
+  <script src="engine.js"></script>
+  <script src="panel.js"></script>
+</body>
+</html>
