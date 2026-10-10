@@ -1,5 +1,5 @@
 [使用说明.md](https://github.com/user-attachments/files/33279335/default.md)
-# 斗鱼合成大西瓜助手 v0.2.0
+# dy合成大西瓜助手 v0.2.0
 
 提供油猴脚本和 Chrome / Edge 扩展两种方式，任选其一。升级前请停用旧版，避免两个助手同时操作。
 
@@ -7,7 +7,7 @@
 
 1. 在 Chrome / Edge 中安装并启用 Tampermonkey（油猴）。
 2. 新建脚本，将同目录外的 `douyu-watermelon-helper-v0.2.user.js` 全部内容粘贴进去并保存；也可通过油猴打开该文件安装。
-3. 允许脚本在斗鱼游戏 iframe 内运行，保留 `@sandbox raw` 和 `@grant none`，以便访问游戏场景。
+3. 允许脚本在dy游戏 iframe 内运行，保留 `@sandbox raw` 和 `@grant none`，以便访问游戏场景。
 4. 在直播间打开合成大西瓜。脚本显示右下角“大西瓜助手 0.2”面板。
 5. 由你手动开局，然后点击面板“自动”。点击“暂停”停止；游戏获得键盘焦点时也可用 F8 启停、Esc 暂停。
 
