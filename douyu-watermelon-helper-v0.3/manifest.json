@@ -1,0 +1,10 @@
+{
+  "manifest_version": 3,
+  "name": "斗鱼大西瓜 · 场景数据助手",
+  "version": "0.3.0",
+  "description": "合成大西瓜助手：独立物理预测、两步概率搜索与落点偏差检查。手动开局后启用。",
+  "minimum_chrome_version": "118",
+  "permissions": ["activeTab", "debugger"],
+  "background": { "service_worker": "background.js" },
+  "action": { "default_title": "大西瓜场景数据助手" }
+}

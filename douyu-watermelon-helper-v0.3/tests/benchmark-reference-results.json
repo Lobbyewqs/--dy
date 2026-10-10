@@ -1,0 +1,179 @@
+{
+  "limit": 80,
+  "results": [
+    {
+      "v02": {
+        "seed": 17,
+        "environment": "nominal",
+        "drops": 80,
+        "mergeCredit": 5532,
+        "highest": 8,
+        "finalHeight": 0.464,
+        "meanPlanMs": 0
+      },
+      "v03": {
+        "seed": 17,
+        "environment": "nominal",
+        "drops": 80,
+        "mergeCredit": 5924,
+        "highest": 9,
+        "finalHeight": 0.364,
+        "meanPlanMs": 324
+      }
+    },
+    {
+      "v02": {
+        "seed": 17,
+        "environment": "holdout",
+        "drops": 80,
+        "mergeCredit": 5542,
+        "highest": 9,
+        "finalHeight": 0.51,
+        "meanPlanMs": 0
+      },
+      "v03": {
+        "seed": 17,
+        "environment": "holdout",
+        "drops": 80,
+        "mergeCredit": 5836,
+        "highest": 9,
+        "finalHeight": 0.449,
+        "meanPlanMs": 246
+      }
+    },
+    {
+      "v02": {
+        "seed": 41,
+        "environment": "nominal",
+        "drops": 80,
+        "mergeCredit": 5422,
+        "highest": 8,
+        "finalHeight": 0.627,
+        "meanPlanMs": 0
+      },
+      "v03": {
+        "seed": 41,
+        "environment": "nominal",
+        "drops": 80,
+        "mergeCredit": 6240,
+        "highest": 9,
+        "finalHeight": 0.609,
+        "meanPlanMs": 343
+      }
+    },
+    {
+      "v02": {
+        "seed": 41,
+        "environment": "holdout",
+        "drops": 80,
+        "mergeCredit": 5470,
+        "highest": 8,
+        "finalHeight": 0.642,
+        "meanPlanMs": 0
+      },
+      "v03": {
+        "seed": 41,
+        "environment": "holdout",
+        "drops": 80,
+        "mergeCredit": 5914,
+        "highest": 9,
+        "finalHeight": 0.53,
+        "meanPlanMs": 344
+      }
+    },
+    {
+      "v02": {
+        "seed": 73,
+        "environment": "nominal",
+        "drops": 80,
+        "mergeCredit": 5504,
+        "highest": 9,
+        "finalHeight": 0.48,
+        "meanPlanMs": 0
+      },
+      "v03": {
+        "seed": 73,
+        "environment": "nominal",
+        "drops": 80,
+        "mergeCredit": 5558,
+        "highest": 9,
+        "finalHeight": 0.57,
+        "meanPlanMs": 380
+      }
+    },
+    {
+      "v02": {
+        "seed": 73,
+        "environment": "holdout",
+        "drops": 80,
+        "mergeCredit": 5884,
+        "highest": 9,
+        "finalHeight": 0.43,
+        "meanPlanMs": 0
+      },
+      "v03": {
+        "seed": 73,
+        "environment": "holdout",
+        "drops": 80,
+        "mergeCredit": 5810,
+        "highest": 9,
+        "finalHeight": 0.452,
+        "meanPlanMs": 344
+      }
+    },
+    {
+      "v02": {
+        "seed": 109,
+        "environment": "nominal",
+        "drops": 80,
+        "mergeCredit": 5388,
+        "highest": 8,
+        "finalHeight": 0.533,
+        "meanPlanMs": 0
+      },
+      "v03": {
+        "seed": 109,
+        "environment": "nominal",
+        "drops": 80,
+        "mergeCredit": 5462,
+        "highest": 9,
+        "finalHeight": 0.523,
+        "meanPlanMs": 344
+      }
+    },
+    {
+      "v02": {
+        "seed": 109,
+        "environment": "holdout",
+        "drops": 80,
+        "mergeCredit": 5816,
+        "highest": 9,
+        "finalHeight": 0.471,
+        "meanPlanMs": 0
+      },
+      "v03": {
+        "seed": 109,
+        "environment": "holdout",
+        "drops": 80,
+        "mergeCredit": 5316,
+        "highest": 8,
+        "finalHeight": 0.575,
+        "meanPlanMs": 433
+      }
+    }
+  ],
+  "summary": {
+    "cases": 8,
+    "limit": 80,
+    "oldCredit": 5569.75,
+    "newCredit": 5757.5,
+    "creditGainPercent": 3.3708873827370978,
+    "oldHeight": 0.519625,
+    "newHeight": 0.509,
+    "heightReductionPercent": 2.0447438056290568,
+    "wins": 6,
+    "oldHighest": 8.5,
+    "newHighest": 8.875,
+    "meanPlanMs": 344.75
+  }
+}
