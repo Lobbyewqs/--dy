@@ -1,0 +1,14 @@
+<!doctype html>
+<html lang="zh-CN">
+<head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>大西瓜场景数据助手</title><link rel="stylesheet" href="panel.css"></head>
+<body>
+  <header><span>DOUYU WATERMELON · 0.2.0</span><h1>直接读取水果，无需框选</h1><p>手动开局后连接，助手使用游戏原有投放流程。</p></header>
+  <div class="actions"><button id="connect">连接游戏</button><button id="start" class="primary">开始自动</button><button id="stop">暂停</button><button id="disconnect">断开</button><button id="export">导出状态</button></div>
+  <div class="metrics"><div>本局分数<strong id="score">—</strong></div><div>待投等级<strong id="level">—</strong></div><div>助手完成投放<strong id="count">0</strong></div></div>
+  <p id="status" role="status">在直播间点击扩展图标，再连接游戏。</p>
+  <canvas id="board" width="550" height="420"></canvas>
+  <p class="note">上图是物理场景示意。圆内数字是真实等级，红线是结束线，蓝线是建议落点。连锁合成是近似预测，不保证最优。</p>
+  <label>最短投放间隔（秒）<input id="interval" type="number" value="1.6" min="1.2" max="8" step="0.2"></label>
+  <p class="note">切换标签页、最小化、场景结束、弹窗或道具操作时暂停。不会自动开局、抽奖、复活或重开。使用后可断开调试连接。Esc 在本面板中可暂停。</p>
+  <script src="scene-planner.js"></script><script src="controller.js"></script><script src="panel.js"></script>
+</body></html>

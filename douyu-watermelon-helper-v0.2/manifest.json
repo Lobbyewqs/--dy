@@ -1,0 +1,10 @@
+{
+  "manifest_version": 3,
+  "name": "斗鱼大西瓜 · 场景数据助手",
+  "version": "0.2.0",
+  "description": "适配斗鱼 act202607-game：读取 Cocos 水果等级与物理位置，使用游戏原有投放流程。手动开局后启用。",
+  "minimum_chrome_version": "118",
+  "permissions": ["activeTab", "debugger"],
+  "background": { "service_worker": "background.js" },
+  "action": { "default_title": "大西瓜场景数据助手" }
+}
