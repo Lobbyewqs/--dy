@@ -1,0 +1,17 @@
+{
+  "manifest_version": 3,
+  "name": "斗鱼大西瓜 · 场景数据助手",
+  "version": "0.4.0",
+  "description": "合成大西瓜助手：动态棋盘投放、短期物理与预测误差反馈。需手动开局。",
+  "minimum_chrome_version": "118",
+  "permissions": [
+    "activeTab",
+    "debugger"
+  ],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "action": {
+    "default_title": "大西瓜场景数据助手"
+  }
+}

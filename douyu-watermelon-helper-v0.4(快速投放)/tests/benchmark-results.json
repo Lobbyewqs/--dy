@@ -1,0 +1,172 @@
+{
+  "timing": [
+    {
+      "fixture": 0,
+      "oldMs": 389,
+      "newMs": 37,
+      "newMethod": "reactive-short-physics",
+      "oldMethod": "physics-expectimax"
+    },
+    {
+      "fixture": 1,
+      "oldMs": 206,
+      "newMs": 16,
+      "newMethod": "reactive-short-physics",
+      "oldMethod": "physics-expectimax"
+    },
+    {
+      "fixture": 2,
+      "oldMs": 151,
+      "newMs": 18,
+      "newMethod": "reactive-short-physics",
+      "oldMethod": "physics-expectimax"
+    },
+    {
+      "fixture": 3,
+      "oldMs": 197,
+      "newMs": 16,
+      "newMethod": "reactive-short-physics",
+      "oldMethod": "physics-expectimax"
+    },
+    {
+      "fixture": 4,
+      "oldMs": 151,
+      "newMs": 15,
+      "newMethod": "reactive-short-physics",
+      "oldMethod": "physics-expectimax"
+    },
+    {
+      "fixture": 5,
+      "oldMs": 280,
+      "newMs": 14,
+      "newMethod": "reactive-short-physics",
+      "oldMethod": "physics-expectimax"
+    },
+    {
+      "fixture": 6,
+      "oldMs": 209,
+      "newMs": 17,
+      "newMethod": "reactive-short-physics",
+      "oldMethod": "physics-expectimax"
+    },
+    {
+      "fixture": 7,
+      "oldMs": 144,
+      "newMs": 13,
+      "newMethod": "reactive-short-physics",
+      "oldMethod": "physics-expectimax"
+    },
+    {
+      "fixture": 8,
+      "oldMs": 211,
+      "newMs": 15,
+      "newMethod": "reactive-short-physics",
+      "oldMethod": "physics-expectimax"
+    },
+    {
+      "fixture": 9,
+      "oldMs": 150,
+      "newMs": 17,
+      "newMethod": "reactive-short-physics",
+      "oldMethod": "physics-expectimax"
+    },
+    {
+      "fixture": 10,
+      "oldMs": 261,
+      "newMs": 13,
+      "newMethod": "reactive-short-physics",
+      "oldMethod": "physics-expectimax"
+    },
+    {
+      "fixture": 11,
+      "oldMs": 207,
+      "newMs": 14,
+      "newMethod": "reactive-short-physics",
+      "oldMethod": "physics-expectimax"
+    }
+  ],
+  "alignment": [
+    {
+      "delay": 0.12,
+      "oldPositionError": 60.527904052254456,
+      "newPositionError": 1.603022863366391
+    },
+    {
+      "delay": 0.16,
+      "oldPositionError": 77.29379428777051,
+      "newPositionError": 1.2248448881291552
+    },
+    {
+      "delay": 0.2,
+      "oldPositionError": 91.83003134741088,
+      "newPositionError": 0.8969598416711051
+    },
+    {
+      "delay": 0.22,
+      "oldPositionError": 97.01772294845196,
+      "newPositionError": 0.7799442416476268
+    }
+  ],
+  "cadenceOld": {
+    "drops": 5,
+    "intervalsMs": [
+      6500,
+      6500,
+      6500,
+      6500
+    ],
+    "durationMs": 30000
+  },
+  "cadenceNew": {
+    "drops": 40,
+    "intervalsMs": [
+      750,
+      750,
+      750,
+      750,
+      750,
+      750,
+      750,
+      750,
+      750,
+      750,
+      750,
+      750,
+      750,
+      750,
+      750,
+      750,
+      750,
+      750,
+      750,
+      750,
+      750,
+      750,
+      750,
+      750,
+      750,
+      750,
+      750,
+      750,
+      750,
+      750,
+      750,
+      750,
+      750,
+      750,
+      750,
+      750,
+      750,
+      750,
+      750
+    ],
+    "durationMs": 30000
+  },
+  "summary": {
+    "oldMeanPlanMs": 213,
+    "newMeanPlanMs": 17.083333333333332,
+    "fallbackCount": 0,
+    "oldMeanAlignmentError": 81.66736315897195,
+    "newMeanAlignmentError": 1.1261929587035695
+  }
+}

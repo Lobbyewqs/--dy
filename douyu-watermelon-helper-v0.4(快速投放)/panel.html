@@ -1,0 +1,15 @@
+<!doctype html>
+<html lang="zh-CN">
+<head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>大西瓜场景数据助手</title><link rel="stylesheet" href="panel.css"></head>
+<body>
+  <header><span>DOUYU WATERMELON · 0.4.0</span><h1>棋盘在动，也能投放</h1><p>按游戏就绪状态投放，以短期预测和实际偏差修正决策。</p></header>
+  <div class="actions"><button id="connect">连接游戏</button><button id="start" class="primary">开始自动</button><button id="stop">暂停</button><button id="disconnect">断开</button><button id="export">导出状态</button></div>
+  <div class="metrics"><div>本局分数<strong id="score">—</strong></div><div>待投等级<strong id="level">—</strong></div><div>助手完成投放<strong id="count">0</strong></div></div>
+  <p id="status" role="status">在直播间点击扩展图标，再连接游戏。</p>
+  <canvas id="board" width="550" height="420"></canvas>
+  <p class="note">圆内数字是真实等级，红线是结束线，蓝线是落点。使用短期连续碰撞预测，包含投放动画和参数偏差检查；不等待所有水果静止。</p>
+  <label>最短投放间隔（秒）<input id="interval" type="number" value="0.65" min="0.45" max="8" step="0.05"></label>
+  <label>策略<select id="strategy"><option value="dynamic">动态短期预测</option><option value="greedy">保守几何（快速）</option></select></label>
+  <p class="note">切换标签页、最小化、场景结束、弹窗或道具操作时暂停。不会自动开局、抽奖、复活或重开。使用后可断开调试连接。Esc 在本面板中可暂停。</p>
+  <script src="vendor/planck.min.js"></script><script src="planck-bridge.js"></script><script src="greedy-baseline.js"></script><script src="physics-model.js"></script><script src="scene-planner.js"></script><script src="controller.js"></script><script src="panel.js"></script>
+</body></html>

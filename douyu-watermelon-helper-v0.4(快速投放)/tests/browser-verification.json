@@ -1,0 +1,429 @@
+{
+  "drops": 68,
+  "movingDrops": 51,
+  "rotatingDrops": 39,
+  "intervals": [
+    1246,
+    1042,
+    1276,
+    1272,
+    1293,
+    1308,
+    1273,
+    1275,
+    1299,
+    1302,
+    1300,
+    1308,
+    1331,
+    1314,
+    1334,
+    1294,
+    1322,
+    1376,
+    867,
+    882,
+    1406,
+    1133,
+    1445,
+    1502,
+    935,
+    1222,
+    931,
+    1535,
+    1204,
+    1208,
+    1505,
+    1512,
+    934,
+    1203,
+    1204,
+    1207,
+    1215,
+    1243,
+    1199,
+    930,
+    938,
+    1203,
+    1197,
+    1155,
+    1385,
+    890,
+    1233,
+    1206,
+    1208,
+    1511,
+    1222,
+    1529,
+    1522,
+    1206,
+    1220,
+    1209,
+    1205,
+    1222,
+    1210,
+    1201,
+    1204,
+    1215,
+    1206,
+    1212,
+    1209,
+    1214,
+    1211
+  ],
+  "plans": [
+    {
+      "fruitId": 1,
+      "method": "reactive-short-physics",
+      "ms": 75
+    },
+    {
+      "fruitId": 102,
+      "method": "reactive-short-physics",
+      "ms": 56
+    },
+    {
+      "fruitId": 104,
+      "method": "reactive-short-physics",
+      "ms": 53
+    },
+    {
+      "fruitId": 106,
+      "method": "reactive-short-physics",
+      "ms": 56
+    },
+    {
+      "fruitId": 108,
+      "method": "reactive-short-physics",
+      "ms": 63
+    },
+    {
+      "fruitId": 110,
+      "method": "reactive-short-physics",
+      "ms": 63
+    },
+    {
+      "fruitId": 112,
+      "method": "reactive-short-physics",
+      "ms": 69
+    },
+    {
+      "fruitId": 114,
+      "method": "reactive-short-physics",
+      "ms": 64
+    },
+    {
+      "fruitId": 116,
+      "method": "reactive-short-physics",
+      "ms": 67
+    },
+    {
+      "fruitId": 118,
+      "method": "reactive-short-physics",
+      "ms": 68
+    },
+    {
+      "fruitId": 120,
+      "method": "reactive-short-physics",
+      "ms": 69
+    },
+    {
+      "fruitId": 122,
+      "method": "reactive-short-physics",
+      "ms": 68
+    },
+    {
+      "fruitId": 124,
+      "method": "reactive-short-physics",
+      "ms": 71
+    },
+    {
+      "fruitId": 126,
+      "method": "reactive-short-physics",
+      "ms": 79
+    },
+    {
+      "fruitId": 128,
+      "method": "reactive-short-physics",
+      "ms": 74
+    },
+    {
+      "fruitId": 130,
+      "method": "reactive-short-physics",
+      "ms": 77
+    },
+    {
+      "fruitId": 132,
+      "method": "reactive-short-physics",
+      "ms": 67
+    },
+    {
+      "fruitId": 135,
+      "method": "reactive-short-physics",
+      "ms": 71
+    },
+    {
+      "fruitId": 137,
+      "method": "reactive-short-physics",
+      "ms": 98
+    },
+    {
+      "fruitId": 139,
+      "method": "reactive-short-physics",
+      "ms": 97
+    },
+    {
+      "fruitId": 141,
+      "method": "reactive-short-physics",
+      "ms": 97
+    },
+    {
+      "fruitId": 143,
+      "method": "reactive-short-physics",
+      "ms": 103
+    },
+    {
+      "fruitId": 145,
+      "method": "reactive-short-physics",
+      "ms": 87
+    },
+    {
+      "fruitId": 147,
+      "method": "reactive-geometry",
+      "ms": 137
+    },
+    {
+      "fruitId": 149,
+      "method": "reactive-geometry",
+      "ms": 138
+    },
+    {
+      "fruitId": 151,
+      "method": "reactive-short-physics",
+      "ms": 155
+    },
+    {
+      "fruitId": 154,
+      "method": "reactive-short-physics",
+      "ms": 141
+    },
+    {
+      "fruitId": 156,
+      "method": "reactive-short-physics",
+      "ms": 161
+    },
+    {
+      "fruitId": 158,
+      "method": "reactive-short-physics",
+      "ms": 142
+    },
+    {
+      "fruitId": 160,
+      "method": "reactive-geometry",
+      "ms": 137
+    },
+    {
+      "fruitId": 162,
+      "method": "reactive-geometry",
+      "ms": 136
+    },
+    {
+      "fruitId": 164,
+      "method": "reactive-geometry",
+      "ms": 139
+    },
+    {
+      "fruitId": 166,
+      "method": "reactive-short-physics",
+      "ms": 144
+    },
+    {
+      "fruitId": 168,
+      "method": "reactive-geometry",
+      "ms": 158
+    },
+    {
+      "fruitId": 170,
+      "method": "reactive-geometry",
+      "ms": 138
+    },
+    {
+      "fruitId": 172,
+      "method": "reactive-geometry",
+      "ms": 138
+    },
+    {
+      "fruitId": 174,
+      "method": "reactive-geometry",
+      "ms": 138
+    },
+    {
+      "fruitId": 177,
+      "method": "reactive-geometry",
+      "ms": 139
+    },
+    {
+      "fruitId": 180,
+      "method": "reactive-geometry",
+      "ms": 155
+    },
+    {
+      "fruitId": 182,
+      "method": "reactive-short-physics",
+      "ms": 134
+    },
+    {
+      "fruitId": 185,
+      "method": "reactive-geometry",
+      "ms": 151
+    },
+    {
+      "fruitId": 187,
+      "method": "reactive-short-physics",
+      "ms": 158
+    },
+    {
+      "fruitId": 189,
+      "method": "reactive-short-physics",
+      "ms": 138
+    },
+    {
+      "fruitId": 191,
+      "method": "reactive-short-physics",
+      "ms": 126
+    },
+    {
+      "fruitId": 194,
+      "method": "reactive-short-physics",
+      "ms": 109
+    },
+    {
+      "fruitId": 200,
+      "method": "reactive-short-physics",
+      "ms": 102
+    },
+    {
+      "fruitId": 202,
+      "method": "reactive-short-physics",
+      "ms": 109
+    },
+    {
+      "fruitId": 204,
+      "method": "reactive-geometry",
+      "ms": 159
+    },
+    {
+      "fruitId": 206,
+      "method": "reactive-geometry",
+      "ms": 137
+    },
+    {
+      "fruitId": 208,
+      "method": "reactive-geometry",
+      "ms": 140
+    },
+    {
+      "fruitId": 210,
+      "method": "reactive-geometry",
+      "ms": 139
+    },
+    {
+      "fruitId": 212,
+      "method": "reactive-geometry",
+      "ms": 140
+    },
+    {
+      "fruitId": 214,
+      "method": "reactive-geometry",
+      "ms": 147
+    },
+    {
+      "fruitId": 216,
+      "method": "reactive-geometry",
+      "ms": 138
+    },
+    {
+      "fruitId": 218,
+      "method": "reactive-geometry",
+      "ms": 138
+    },
+    {
+      "fruitId": 220,
+      "method": "reactive-geometry",
+      "ms": 150
+    },
+    {
+      "fruitId": 222,
+      "method": "reactive-geometry",
+      "ms": 138
+    },
+    {
+      "fruitId": 224,
+      "method": "reactive-geometry",
+      "ms": 140
+    },
+    {
+      "fruitId": 226,
+      "method": "reactive-geometry",
+      "ms": 147
+    },
+    {
+      "fruitId": 230,
+      "method": "reactive-short-physics",
+      "ms": 127
+    },
+    {
+      "fruitId": 232,
+      "method": "reactive-short-physics",
+      "ms": 134
+    },
+    {
+      "fruitId": 234,
+      "method": "reactive-short-physics",
+      "ms": 114
+    },
+    {
+      "fruitId": 236,
+      "method": "reactive-geometry",
+      "ms": 138
+    },
+    {
+      "fruitId": 238,
+      "method": "reactive-geometry",
+      "ms": 138
+    },
+    {
+      "fruitId": 240,
+      "method": "reactive-geometry",
+      "ms": 140
+    },
+    {
+      "fruitId": 242,
+      "method": "reactive-geometry",
+      "ms": 138
+    },
+    {
+      "fruitId": 244,
+      "method": "reactive-geometry",
+      "ms": 137
+    },
+    {
+      "fruitId": 246,
+      "method": "reactive-geometry",
+      "ms": 138
+    }
+  ],
+  "modelError": 29.741068471236115,
+  "errorSamples": 239,
+  "paused": true,
+  "pauseUnchanged": true,
+  "ui": {
+    "invalidIntervalBlocked": true,
+    "greedyMethod": "reactive-geometry",
+    "greedyDrops": 101,
+    "strategyChangePaused": true
+  },
+  "meanIntervalMs": 1234.7761194029852,
+  "meanPlanMs": 116.6470588235294,
+  "fallbackCount": 30
+}
